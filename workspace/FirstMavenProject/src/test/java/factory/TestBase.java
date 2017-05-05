@@ -17,6 +17,8 @@ public class TestBase {
 	ConfigDataProvider CDP = new ConfigDataProvider();
 
 	public void init(){
+		
+		
 		getBrowser(CDP.getBrowser());
 
 	}
