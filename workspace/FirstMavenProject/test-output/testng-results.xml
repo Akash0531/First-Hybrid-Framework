@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31925" started-at="2017-05-04T21:48:05Z" finished-at="2017-05-04T21:48:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31925" started-at="2017-05-04T21:48:05Z" finished-at="2017-05-04T21:48:37Z">
+      <class name="testcases.Verification">
+        <test-method status="PASS" signature="verifyhomepage()[pri:0, instance:testcases.Verification@3abbfa04]" name="verifyhomepage" is-config="true" duration-ms="15621" started-at="2017-05-05T03:18:05Z" finished-at="2017-05-05T03:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+        <test-method status="PASS" signature="VerifyPageTitle()[pri:0, instance:testcases.Verification@3abbfa04]" name="VerifyPageTitle" duration-ms="4529" started-at="2017-05-05T03:18:20Z" finished-at="2017-05-05T03:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyPageTitle -->
+        <test-method status="PASS" signature="Faliure(org.testng.ITestResult)[pri:0, instance:testcases.Verification@3abbfa04]" name="Faliure" is-config="true" duration-ms="415" started-at="2017-05-05T03:18:25Z" finished-at="2017-05-05T03:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyPageTitle status=SUCCESS method=Verification.VerifyPageTitle()[pri:0, instance:testcases.Verification@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Faliure -->
+        <test-method status="PASS" signature="HomePage()[pri:1, instance:testcases.Verification@3abbfa04]" name="HomePage" duration-ms="10803" started-at="2017-05-05T03:18:25Z" finished-at="2017-05-05T03:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method status="PASS" signature="Faliure(org.testng.ITestResult)[pri:0, instance:testcases.Verification@3abbfa04]" name="Faliure" is-config="true" duration-ms="119" started-at="2017-05-05T03:18:36Z" finished-at="2017-05-05T03:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=Verification.HomePage()[pri:1, instance:testcases.Verification@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Faliure -->
+        <test-method status="PASS" signature="Buttonverification()[pri:2, instance:testcases.Verification@3abbfa04]" name="Buttonverification" duration-ms="1" started-at="2017-05-05T03:18:36Z" finished-at="2017-05-05T03:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Buttonverification -->
+        <test-method status="PASS" signature="Faliure(org.testng.ITestResult)[pri:0, instance:testcases.Verification@3abbfa04]" name="Faliure" is-config="true" duration-ms="96" started-at="2017-05-05T03:18:36Z" finished-at="2017-05-05T03:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Buttonverification status=SUCCESS method=Verification.Buttonverification()[pri:2, instance:testcases.Verification@3abbfa04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Faliure -->
+        <test-method status="PASS" signature="Browserclose()[pri:0, instance:testcases.Verification@3abbfa04]" name="Browserclose" is-config="true" duration-ms="309" started-at="2017-05-05T03:18:36Z" finished-at="2017-05-05T03:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserclose -->
+      </class> <!-- testcases.Verification -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

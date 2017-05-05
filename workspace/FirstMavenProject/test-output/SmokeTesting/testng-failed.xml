@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTesting]">
+  <test name="Test_0001(failed)">
+    <classes>
+      <class name="testcases.Verification">
+        <methods>
+          <include name="verifyhomepage"/>
+          <include name="Browserclose"/>
+          <include name="HomePage"/>
+          <include name="VerifyPageTitle"/>
+        </methods>
+      </class> <!-- testcases.Verification -->
+    </classes>
+  </test> <!-- Test_0001(failed) -->
+</suite> <!-- Failed suite [SmokeTesting] -->
