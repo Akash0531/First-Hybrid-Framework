@@ -1,5 +1,7 @@
 package testcases;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.ITestResult;
@@ -19,6 +21,7 @@ import utility.ScreenshotLibrary;
 
 public class Verification extends TestBase{
     
+	
 	ExtentReports report;
 	ExtentTest logger;
     
@@ -30,6 +33,7 @@ public class Verification extends TestBase{
 		report = new ExtentReports(".\\Reports\\FirstReport.html",true);
 		logger= report.startTest("TestPageTitle");
 		init();
+
 		
 	}
 
@@ -83,7 +87,7 @@ public class Verification extends TestBase{
 			
 		report.endTest(logger);
 		report.flush();
-		
+		//driver.get("C:\\Users\\Akash\\workspace\\FirstMavenProject\\Reports\\FirstReport.html");
 	}
 	
 	
